@@ -1,0 +1,42 @@
+#main a{
+	text-decoration:none;
+	color:black;
+}
+
+#main{
+	background-color:rgba(11,15,22,0.6);
+}
+
+h1{
+	font-size:300%;
+	text-align:center;
+	margin-top:0%;
+}
+
+.boite{
+	display:flex;
+	margin-top:2%;
+	margin-bottom:2%;
+	font-size:155%;
+	font-family:monospace;
+}
+
+.fossile{
+	width:40%;
+	height:35%;
+	border:5px solid #1b2538;
+    box-shadow: 0 0 11px #1b2538;
+    margin:2% 2% 2% 2%;
+}
+
+.paragraphe{
+	width:50%;
+	margin:5% 2% 2% 2%;
+}
+
+#auteur{
+	margin:0%;
+	padding-bottom:1%;
+	margin-left:2%;
+	color:white;
+}

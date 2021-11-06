@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <title>Actualités</title>
+	    <link href="actu.css" rel="stylesheet">
+	    <link href="..\Base du Site\base.css" rel="stylesheet">
+	</head>
+	<body>
+    <div id="header">
+      <a href="../aceuille/aceuille.html" id="lienlogo"><img id="logo" src="..\Base du Site\logo.png" alt="logo du musée"/></a>
+    </div>
+    <div id="main">
+    	<h1 id="titre">Le duel entre un T-Rex et un Triceratops va enfin pouvoir être étudié</h1>
+    	<div class="boite">
+	    	<img id="fossile1" class="fossile" src="fossile1.jpg" alt="fossile"/>
+
+	    	<p id="paragraphe1" class="paragraphe">Aux États-Unis, les fossiles trouvés sur des terres privées appartiennent aux propriétaires de ces terres. Ils peuvent donc être achetés, vendus ou jalousement dissimulés aux chercheurs. C'est un peu de tout ça qui est arrivé à cet incroyable fossile d'un T-Rex et d'un Triceratops qui semblent avoir été surpris en plein duel. Un fossile sorti de la terre d'un ranch du Montana en 2006 et qui refait aujourd'hui surface dans <strong>le Musée d’histoires naturelles de Caroline du Nord</strong>.</p>
+	    </div>
+	    <div class="boite">
+	    	<p id="paragraphe2" class="paragraphe">C'est à un chasseur de fossiles que l'on doit l'extraordinaire découverte. Mais ce n'est qu'une fois que le fossile a été totalement mis au jour, après des mois de fouilles, que son histoire rocambolesque commence réellement. Il fut d'abord conservé dans un laboratoire privé, puis les propriétaires du ranch ont ensuite cherché à le vendre à un musée. Sans succès. Certains chercheurs l'estimaient de peu d'intérêt, remettant en doute la qualité des fouilles. Alors, les propriétaires du ranch ont tenté la vente aux enchères. Mais l'enchère minimale -- de six millions de dollars, excusez du peu -- n'a pas été atteinte. Et lorsque le NCMNS a finalement exprimé son intérêt, il lui a fallu se lancer dans une très complexe bataille juridique pour déterminer à qui appartenait vraiment le fossile, un ancien partenaire commercial du ranch ayant, dans l'intervalle, souhaité faire valoir ses droits.</p>
+
+	    	<img id="fossile2" class="fossile" src="fossile2.jpg" alt="fossile"/>
+	    </div>
+	    <div class="boite">
+	    	<img id="fossile3" class="fossile" src="fossile3.jpg" alt="fossile"/>
+
+	    	<p id="paragraphe3" class="paragraphe">L'histoire semble bien finir puisque le fossile revient enfin à des chercheurs qui vont pouvoir l'étudier. Mais pour cela, il leur a tout de même fallu l'acheter. Une triste nouvelle pour nombre de paléontologues qui militent contre le commerce de fossiles. Notamment de fossiles de dinosaures qui s'arrachent parfois à prix d'or. Il a d'ailleurs fallu au Musée d'histoires naturelles de Caroline du Nord le soutien financier de plusieurs mécènes - des fondations, des villes, des comtés et même des États - pour acquérir le fameux fossile soupçonné figurer un duel un T-Rex et un Triceratops.</p>
+	    </div>
+    	<p id="auteur">Écrit par : Nahtalie Mayer<br><a href="https://www.futura-sciences.com/planete/actualites/dinosaure-duel-t-rex-triceratops-va-enfin-pouvoir-etre-etudie-84280/">Sources</a></p>
+    </div>
+    <div id="footer">
+      <ul id="listeinfo1" class="ulfooter">
+        <li>Nous contacter :</li>
+        <li>Tel : 05 16 84 23 85</li>
+        <li>Mail : museepaleontologie@gouv.fr</li>
+      </ul>
+
+      <ul id="listeinfo2" class="ulfooter">
+        <li><label>Recherche :</label><input type="text"></li>
+        <li>Retrouvez nous sur twitter : @museepalontologie</li>
+        <li>Copy right : tout droit réservés</li>
+      </ul>
+    </div>
+    <script>
+			function entierAleatoire(min, max){
+ 				return Math.floor(Math.random() * (max - min + 1)) + min;
+			}
+			var entier = entierAleatoire(1, 3);
+			if (entier == 1 == true){
+				document.getElementById("titre").innerHTML="Le cerveau d'un dinosaures complétement réconstitué";
+				document.getElementById("paragraphe1").innerHTML="Malgré toute la passion dont ils font preuve, les paléontologues partagent une frustration : celle des tissus mous. Ces tissus qui, année après année, dépérissent et redeviennent poussière. Ces tissus dont fait partie le cerveau, sans lequel estimer certaines capacités des dinosaures devient plus périlleux. Pour pallier cette perte, les paléontologues redoublent d'ingéniosité. À partir des parties retrouvées du neurocrâne (la région du crâne entourant le cerveau), ils réussissent à reconstituer partiellement le cerveau.";
+				document.getElementById("paragraphe2").innerHTML="Jusqu'à présent, ils n'avaient jamais pu retrouver un neurocrâne complet et suffisamment bien conservé pour reconstituer un cerveau entier. C'est chose faite. Grâce au squelette d'un petit dinosaure nommé Buriolestes schultzi, vieux de 233 millions d'années, dont le neurocrâne est très bien conservé. En utilisant la tomodensitométrie, une technique d'imagerie médicale, les paléontologues ont pu observer un modèle 3D du cerveau de ce dinosaure.";
+				document.getElementById("paragraphe3").innerHTML="Jusqu'à présent, ils n'avaient jamais pu retrouver un neurocrâne complet et suffisamment bien conservé pour reconstituer un cerveau entier. C'est chose faite. Grâce au squelette d'un petit dinosaure nommé Buriolestes schultzi, vieux de 233 millions d'années, dont le neurocrâne est très bien conservé. En utilisant la tomodensitométrie, une technique d'imagerie médicale, les paléontologues ont pu observer un modèle 3D du cerveau de ce dinosaure.";
+				document.getElementById("auteur").innerHTML='Écrit par : Éléonore Solé<br><a href="https://www.futura-sciences.com/planete/actualites/dinosaure-premiere-cerveau-complet-dinosaure-reconstitue-84007/">Sources</a>';
+				document.querySelector('#fossile1').src="cerveau1.jpg";
+				document.querySelector('#fossile2').src="cerveau2.jpg";
+				document.querySelector('#fossile3').src="cerveau3.jpg";
+			}
+			else if (entier == 2 == true){
+				document.getElementById("titre").innerHTML="Ces anciens crocodiles étaient bipèdes comme les dinosaures"
+				document.getElementById("paragraphe1").innerHTML="Des chercheurs viennent de publier un article dans <a id='liencroco' href='https://www.nature.com/articles/s41598-020-66008-7'>Scientific Reports</a>, une revue éditée par le célèbre Nature Publishing Group, dans lequel ils annoncent que certaines espèces d'anciens crocodiles disparues marchaient sur deux pattes, comme des dinosaures. Les paléontologues ont déduit ces informations des nombreuses empreintes découvertes sur un site fossile de Corée du Sud dont les couches sédimentaires ont été datées de 110 à 120 millions d'années avec l'apparition de l'Homme moderne, c'est-à-dire de la fin du Crétacé inférieur.";
+				document.getElementById("paragraphe2").innerHTML="«<em> Sur le site, les empreintes étaient initialement supposées être faites par un ptérosaure bipède géant marchant sur la vasière, nous comprenons maintenant qu'il s'agissait d'empreintes de crocodiles bipèdes, explique Anthony Romilio au sujet de cette trouvaille. Les empreintes mesurent environ 24 centimètres, ce qui suggère que ces crocodiles avaient des jambes à peu près de la même hauteur que celles d'un humain adulte. C'étaient de longs animaux dont nous estimons qu'ils mesuraient plus de trois mètres. Et bien que les empreintes de pas soient partout sur le site, il n'y avait pas d'empreintes de membres antérieurs. </em>»";
+				document.getElementById("paragraphe3").innerHTML="Kyung Soo Kim, toujours dans un communiqué de l'Université du Queensland, précise de son côté que «<em> les crocodiles typiques marchent dans une position accroupie et créent des pistes qui sont larges. Curieusement, les pistes que nous avons découvertes sont très étroites - un peu comme si un crocodile était en équilibre sur une corde raide. Lorsque l'on combine ces faits avec l'absence de marques de traînée de queue, il est devenu clair que ces créatures se déplaçaient de façon bipède. Ils se déplaçaient de la même manière que de nombreux dinosaures, mais les empreintes n'étaient pas faites par des dinosaures </em>».";
+				document.getElementById("auteur").innerHTML='Écrit par : Laurent Sacco<br><a href="https://www.futura-sciences.com/planete/actualites/paleontologie-ces-anciens-crocodiles-etaient-bipedes-comme-dinosaures-81452/">Sources</a>';
+				document.querySelector('#fossile1').src="croco1.png";
+				document.querySelector('#fossile2').src="croco2.jpg";
+				document.querySelector('#fossile3').src="croco3.jpg";
+			}
+		</script>
+  </body>
+</html>
