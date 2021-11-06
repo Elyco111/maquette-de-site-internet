@@ -1,0 +1,30 @@
+table{
+border-collapse: collapse;
+width: 600px;
+height: 200px;
+border: solid 5px #1b2538
+box-shadow: 0 0 11px #1b2538
+}
+th{
+ border: 1px solid black;
+padding: 10px;
+vertical-align: middle;
+background-color: #515152;
+color: white;
+}
+td {
+ border: 1px solid black;
+padding: 10px;
+vertical-align: middle;
+background-color: grey;
+}
+
+.marge1{
+	margin-top: 2%;
+}
+
+#footer{
+	margin-top:6%;
+}
+
+
