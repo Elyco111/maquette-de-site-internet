@@ -1,0 +1,71 @@
+html{
+	height:100%;
+	margin:0;
+	padding:0
+}
+
+#header{
+	background-image:url(Bannierepng.png);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	margin:0;
+	padding:0;
+	width:100%;	
+}
+
+#logo{
+	width:4%;
+	height:4%;
+}
+
+#lienlogo{
+	margin-left:47%;
+}
+
+body {
+    background-image:url(Background.png);
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+#main{
+	
+	color:white;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0%;
+	margin-bottom:0;
+	padding:0;
+}
+
+#footer{
+	border-top:solid grey 3px;
+	background-color:#1b2538;
+	color:white;
+	position:absolute;
+	width:100%;
+	list-style:none;
+	display: inline;
+}
+
+.ulfooter{
+	display:inline-block;
+	list-style: none;
+}
+
+#listeinfo1{
+	width:35%;
+	margin-right:20%;
+	margin-left:2%;
+	text-align:center;
+}
+
+#listeinfo2{
+	width:35%;
+	text-align:center;
+}
+
