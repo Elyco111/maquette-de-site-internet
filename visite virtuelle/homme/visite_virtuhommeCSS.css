@@ -1,0 +1,461 @@
+html{
+	height:100%;
+	margin:0;
+	padding:0
+}
+
+#header{
+	background-image:url(../img/Bannierehomme.png);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	margin:0;
+	padding:0;
+	width:100%;	
+	position:fixed;
+	top: 0%;	
+	z-index:4;
+
+}
+
+#logo{
+	width:4%;
+	height:4%;
+}
+
+#lienlogo{
+	margin-left:47%;
+}
+
+body {
+    background-image:url(../img/Backgroundhomme.png);
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+#main{
+	background-color:rgba(11,15,22,0.5);
+	color:white;
+	margin-left:0;
+	margin-right:0;
+	margin-top:1%;
+	margin-bottom:0;
+	padding:0;
+}
+
+#fauxtexte{
+	margin:0;
+	padding:0;
+}
+
+#footer{
+	border-top:solid grey 3px;
+	background-color:#1b2538;
+	color:white;
+	position:absolute;
+	width:100%;
+	list-style:none;
+	margin-top : 150%;
+	z-index: 2;
+}
+
+.ulfooter{
+	display:inline-block;
+	list-style: none;
+}
+
+#listeinfo1{
+	width:35%;
+	margin-right:20%;
+	margin-left:2%;
+	text-align:center;
+}
+
+#listeinfo2{
+	width:35%;
+	text-align:center;
+}
+
+#bloc-fixe { 
+	right: 0%;
+	top:0%;
+	left:0%;
+	position:fixed;
+	width:100%;
+	overflow:auto;
+	z-index: 1;
+}
+
+.consigne1 {
+	color: white;
+	border : 2px solid black;
+	padding: 5%;
+	background-color: #152034;
+	width:55%;
+	text-align: center;
+	position: relative;
+	margin-top: 7%;
+	margin-bottom: 8%;
+	margin-left:18%;
+	display: block;
+	font-family: 'Raleway', sans-serif;
+	font-size: 300%;
+	z-index: 2;
+	box-shadow: 5px 5px 5px grey;
+}
+
+h1 {
+	margin-top:8%;
+}
+.consigne2 {
+	color: white;
+	border : 2px solid black;
+	padding: 4%;
+	background-color:rgba(11,15,22,0.9);
+	width:55%;
+	text-align: left;
+	margin-bottom:8%;
+	margin-left : 41.8%;
+	margin-top: 5%;
+	display: block;
+	width: 50%;
+	height: 50%;
+	font-family: 'Raleway', sans-serif;
+	position:absolute;
+
+}
+
+ #mammouth{
+ 	position:absolute;
+ 	width: 40%;
+ 	height:40%;
+ 	border : 10px solid #152034;
+
+ }
+
+ #mammouthsque{
+ 	position:absolute;
+ 	width: 40%;
+ 	height:40%;
+ 	margin-top:22%;
+ 	border : 10px solid #152034;
+ }
+
+
+.consigne3 {
+	color: white;
+	border : 2px solid black;
+	padding: 4%;
+	background-color:rgba(11,15,22,0.9);
+	width:55%;
+	text-align: left;
+	margin-bottom:0%;
+	margin-top : 50%;
+	display: block;
+	width: 50%;
+	height: 60%;
+	font-family: 'Raleway', sans-serif;
+	position:absolute;
+
+}
+
+ #trice{
+ 	position:absolute;
+ 	width: 16%;
+ 	height:30%;
+ 	margin-top: 72%;
+ 	border : 10px solid #152034;
+ 	margin-left: 59%;
+ }
+
+ #tricesque{
+ 	position:absolute;
+ 	width: 21.5%;
+ 	height:80%;
+ 	margin-top:49%;
+ 	margin-left: 77%;
+ 	border : 10px solid #152034;
+ }
+
+.consigne4 {
+	color: white;
+	border : 2px solid black;
+	padding: 4%;
+	background-color:rgba(11,15,22,0.9);
+	width:55%;
+	text-align: left;
+	margin-bottom:8%;
+	margin-left : 41.8%;
+	margin-top: 98%;
+	display: block;
+	width: 50%;
+	height: 58%;
+	font-family: 'Raleway', sans-serif;
+	position:absolute;
+
+}
+
+ #velo{
+ 	position:absolute;
+ 	width: 40%;
+ 	height:45%;
+ 	border : 10px solid #152034;
+ 	margin-top:94%;
+ }
+
+ #velosque{
+ 	position:absolute;
+ 	width: 40%;
+ 	height:40%;
+ 	margin-top:118%;
+ 	border : 10px solid #152034;
+ }
+
+
+#aquatique {
+	margin-left: 2%;
+	display:block;
+	margin-bottom:9%;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding: 0%;
+	background-color: #152034;
+	z-index: 3;
+	position :absolute;
+	margin-top : 28.1%;
+}
+
+
+#terrestre {
+	margin-left: 2%;
+	display:block;
+	margin-bottom:9%;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding: 0%;
+	background-color: #152034;	
+	z-index: 3;
+	position :absolute;
+	margin-top:4.2%;
+
+}
+
+#humain {
+	margin-left:2%;
+	display:block;
+	margin-bottom:13%;
+	margin-top : 30%;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding: 0%;
+	background-color: #152034;
+	z-index: 3;
+	position :absolute;
+	margin-top:52.1%;
+}
+
+#menu {
+	z-index: 1;
+	position: absolute;
+	height:182%;
+	width: 25%;
+}
+
+#fondmenu {
+	z-index: 0;
+	position: absolute;
+	height:181%;
+	width: 100%;
+
+}
+
+#bandeterre {
+	z-index: 2;
+	margin-left: 5%;
+	margin-top: 4%;
+	height: 30%;
+	position: absolute;
+	padding:1%;
+	border:2px solid black;
+	background-color: #0b1a37;
+
+}
+
+#bandeeau {
+	z-index: 2;
+	margin-left: 5%;
+	margin-top: 28%;
+	height: 30%;
+	position: absolute;
+	padding:1%;
+	border:2px solid black;
+	background-color: #0b1a37;
+
+}
+
+#bandehumain {
+	z-index: 2;
+	margin-left: 5%;
+	margin-top: 52%;
+	height: 30%;
+	position: absolute;
+	padding:1%;
+	border:2px solid black;
+	background-color: #0b1a37;
+
+}
+
+.description1 {
+	z-index: 3;
+	position: absolute;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 500%;
+	margin-left: 45%;
+	margin-top: 7%;
+}
+
+.description2 {
+	z-index: 3;
+	position: absolute;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 500%;
+	margin-left: 3%;
+	margin-top: 51%;
+}
+
+.description3 {
+	z-index: 3;
+	position: absolute;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 500%;
+	margin-left: 45%;
+	margin-top: 100%;
+}
+
+
+
+
+
+
+
+#maison {
+	margin-top:5%;
+	position: absolute;
+	z-index: 3;
+	box-shadow: 5px 5px 5px grey;
+}
+
+
+#aide {
+	position: absolute;
+	margin-top:12%;
+	z-index: 3;
+	box-shadow: 5px 5px 5px grey;
+}
+
+.remonter {
+	display:block;
+	margin-left:47%;
+	margin-top:151%;
+	color: white;
+	z-index: 4;
+	position: absolute;
+}
+
+#telecharger {
+	color:white;
+	background-color: #830000;
+	position: absolute;
+	font-family: 'Raleway', sans-serif;
+	box-shadow: 5px 5px 5px grey;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	z-index:4;
+	padding: 3%;
+	padding-top: 1%;
+	padding-bottom:1%;
+	margin-left:44%;
+	margin-top: 75%;
+	font-size:200%;
+}
+
+
+#attention1 {
+	position:absolute;
+	z-index: 3;
+	width: 10%;
+	height:20%;
+	margin-left: 20%;
+	margin-top: 2%;
+}
+
+#attention2 {
+	position:absolute;
+	width: 10%;
+	height:20%;
+	margin-left: 71%;
+	margin-top: 2%;
+	z-index: 3;
+}
+
+
+<style>.zoom {
+width: 20%;
+height: 20%;
+}
+.image {
+width: 50%;
+height: 50%; 
+}
+.image img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 0.5s ease;
+}
+.image:hover img {
+/* L'image est doublée */
+-webkit-transform:scale(1.2); /* Safari et Chrome */
+-moz-transform:scale(1.2); /* Firefox */
+-ms-transform:scale(1.2); /* Internet Explorer 9 */
+-o-transform:scale(1.2); /* Opera */
+transform:scale(1.2);
+}</style>
+
+#logotheme {
+	z-index: 2;
+}
+
+
+
+.foncer{
+background:#000000;
+display:inline-block;
+z-index: 3;
+}
+.foncer img{
+-moz-transition: opacity 0.9s;
+-webkit-transition: opacity 0.9s;
+-o-transition: opacity 0.9s;
+}
+.foncer img:hover{
+opacity:0.8;
+-moz-transition: opacity 0.7s;
+-webkit-transition: opacity 0.7s;
+-o-transition: opacity 0.7s;
+}
+
+.soulignesous {
+	text-decoration: underline;
+
+}
